@@ -1,0 +1,238 @@
+[2:31:30 PM] › [CLI] …  awaiting  Starting Prism…
+[2:31:32 PM] › [CLI] ℹ  info      GET        http://0.0.0.0:4010/GetStatus
+[2:31:32 PM] › [CLI] ℹ  info      POST       http://0.0.0.0:4010/RegisterJetsonboxid?clusterId=quod&houseId=animi&jetson_uuid=laborum&username=ea
+[2:31:32 PM] › [CLI] ℹ  info      GET        http://0.0.0.0:4010/GetRTSPURL?cameraId=nulla&jetson_uuid=aut
+[2:31:32 PM] › [CLI] ℹ  info      GET        http://0.0.0.0:4010/StopRTSP?JetsonID=%5Bobject%20Object%5D&camera_id=incidunt
+[2:31:32 PM] › [CLI] ℹ  info      POST       http://0.0.0.0:4010/SetCamera?jetson_id=deserunt&proident_b7a=sit
+[2:31:32 PM] › [CLI] ℹ  info      POST       http://0.0.0.0:4010/api/device/alert
+[2:31:32 PM] › [CLI] ℹ  info      POST       http://0.0.0.0:4010/api/device/camera/alert
+[2:31:32 PM] › [CLI] ℹ  info      POST       http://0.0.0.0:4010/api/device/camera/feature/alert
+[2:31:32 PM] › [CLI] ℹ  info      GET        http://0.0.0.0:4010/device/list
+[2:31:32 PM] › [CLI] ℹ  info      GET        http://0.0.0.0:4010/device/camera/list
+[2:31:32 PM] › [CLI] ℹ  info      GET        http://0.0.0.0:4010/device/camera/stream
+[2:31:32 PM] › [CLI] ℹ  info      GET        http://0.0.0.0:4010/device/camera/alert/history?jetson_uuid=harum
+[2:31:32 PM] › [CLI] ▶  start     Prism is listening on http://0.0.0.0:4010
+[2:32:33 PM] › [HTTP SERVER] ℹ  info      HTTP request is: 'method'" GET |'URL': "/GetStatus?params="  |'header':  {"accept":"application/json","user-agent":"PostmanRuntime/7.35.0","postman-token":"b803bc29-cdae-48fb-8a4d-913919620757","host":"0.0.0.0:4012","accept-encoding":"gzip, deflate, br","connection":"keep-alive"} |'body: ' null
+[2:32:33 PM] ›     [NEGOTIATOR] ℹ  info      Request contains an accept header: application/json
+[2:32:33 PM] ›     [VALIDATOR] ⚠  warning   Request did not pass the validation rules
+[2:32:33 PM] ›     [VALIDATOR] ✖  error     Request query must have required property 'params'
+[2:32:33 PM] ›     [NEGOTIATOR] ✔  success   Found response 400. I'll try with it.
+[2:32:33 PM] ›     [NEGOTIATOR] ✔  success   Responding with the requested status code 400
+[2:32:33 PM] ›     [NEGOTIATOR] ℹ  info      > Responding with "400"
+[2:32:33 PM] › [HTTP SERVER] ℹ  info      HTTP response for HTTP-Verb: GET URL: /GetStatus?params= is '{"statusCode":400,"headers":{}}'
+[2:32:33 PM] ›     [VALIDATOR] ✖  error     Violation: request.query Request query must have required property 'params'
+[2:32:43 PM] › [HTTP SERVER] ℹ  info      HTTP request is: 'method'" GET |'URL': "/GetStatus?params={%22JetsonID%22:%20%22d290f1ee-6c54-4b01-90e6-d701748f0851%22}"  |'header':  {"accept":"application/json","user-agent":"PostmanRuntime/7.35.0","postman-token":"6370c6bf-ed4f-4da2-9971-885589af4c4c","host":"0.0.0.0:4012","accept-encoding":"gzip, deflate, br","connection":"keep-alive"} |'body: ' null
+[2:32:43 PM] ›     [NEGOTIATOR] ℹ  info      Request contains an accept header: application/json
+[2:32:43 PM] ›     [VALIDATOR] ✔  success   The request passed the validation rules. Looking for the best response
+[2:32:43 PM] ›     [NEGOTIATOR] ✔  success   Found a compatible content for application/json
+[2:32:43 PM] ›     [NEGOTIATOR] ✔  success   Responding with the requested status code 200
+[2:32:43 PM] ›     [NEGOTIATOR] ℹ  info      > Responding with "200"
+[2:32:43 PM] › [HTTP SERVER] ℹ  info      HTTP response for HTTP-Verb: GET URL: /GetStatus?params={%22JetsonID%22:%20%22d290f1ee-6c54-4b01-90e6-d701748f0851%22} is '{"statusCode":200,"headers":{"Content-type":"application/json"},"body":{"sn":"0904H210008","firmware":"1.200.30","regStatus":"Registered","lastOnline":"2023-11-29T09:12:33.001Z","noCamera":3,"cameras":[{"no":1,"id":"9a48824e-829d-11ee-b962-0242ac120002","status":"online","lastOnline":"2023-11-29T09:12:33.001Z"},{"no":2,"id":"bb791d8e-829d-11ee-b962-0242ac120002","status":"online","lastOnline":"2023-11-29T09:12:33.001Z"},{"no":3,"id":"c79794c4-829d-11ee-b962-0242ac120002","status":"online","lastOnline":"2023-11-29T09:12:33.001Z"}]}}'
+[2:32:43 PM] ›     [VALIDATOR] ✖  error     Violation: response.body Response body must have required property 'Cameras'
+[2:33:00 PM] › [HTTP SERVER] ℹ  info      HTTP request is: 'method'" GET |'URL': "/GetStatus?params={%22JetsonID2%22:%20%22d290f1ee-6c54-4b01-90e6-d701748f0851%22}"  |'header':  {"accept":"application/json","user-agent":"PostmanRuntime/7.35.0","postman-token":"ce4c68b1-f3e4-438f-a2ae-69c86f5bb778","host":"0.0.0.0:4012","accept-encoding":"gzip, deflate, br","connection":"keep-alive"} |'body: ' null
+[2:33:00 PM] ›     [NEGOTIATOR] ℹ  info      Request contains an accept header: application/json
+[2:33:00 PM] ›     [VALIDATOR] ✔  success   The request passed the validation rules. Looking for the best response
+[2:33:00 PM] ›     [NEGOTIATOR] ✔  success   Found a compatible content for application/json
+[2:33:00 PM] ›     [NEGOTIATOR] ✔  success   Responding with the requested status code 200
+[2:33:00 PM] ›     [NEGOTIATOR] ℹ  info      > Responding with "200"
+[2:33:00 PM] › [HTTP SERVER] ℹ  info      HTTP response for HTTP-Verb: GET URL: /GetStatus?params={%22JetsonID2%22:%20%22d290f1ee-6c54-4b01-90e6-d701748f0851%22} is '{"statusCode":200,"headers":{"Content-type":"application/json"},"body":{"sn":"0904H210008","firmware":"1.200.30","regStatus":"Registered","lastOnline":"2023-11-29T09:12:33.001Z","noCamera":3,"cameras":[{"no":1,"id":"9a48824e-829d-11ee-b962-0242ac120002","status":"online","lastOnline":"2023-11-29T09:12:33.001Z"},{"no":2,"id":"bb791d8e-829d-11ee-b962-0242ac120002","status":"online","lastOnline":"2023-11-29T09:12:33.001Z"},{"no":3,"id":"c79794c4-829d-11ee-b962-0242ac120002","status":"online","lastOnline":"2023-11-29T09:12:33.001Z"}]}}'
+[2:33:00 PM] ›     [VALIDATOR] ✖  error     Violation: response.body Response body must have required property 'Cameras'
+[2:33:17 PM] › [HTTP SERVER] ℹ  info      HTTP request is: 'method'" GET |'URL': "/GetStatus?params={%22JetsonID%22:%203}"  |'header':  {"accept":"application/json","user-agent":"PostmanRuntime/7.35.0","postman-token":"7677d686-0434-4f16-8daf-51922677388b","host":"0.0.0.0:4012","accept-encoding":"gzip, deflate, br","connection":"keep-alive"} |'body: ' null
+[2:33:17 PM] ›     [NEGOTIATOR] ℹ  info      Request contains an accept header: application/json
+[2:33:17 PM] ›     [VALIDATOR] ✔  success   The request passed the validation rules. Looking for the best response
+[2:33:17 PM] ›     [NEGOTIATOR] ✔  success   Found a compatible content for application/json
+[2:33:17 PM] ›     [NEGOTIATOR] ✔  success   Responding with the requested status code 200
+[2:33:17 PM] ›     [NEGOTIATOR] ℹ  info      > Responding with "200"
+[2:33:17 PM] › [HTTP SERVER] ℹ  info      HTTP response for HTTP-Verb: GET URL: /GetStatus?params={%22JetsonID%22:%203} is '{"statusCode":200,"headers":{"Content-type":"application/json"},"body":{"sn":"0904H210008","firmware":"1.200.30","regStatus":"Registered","lastOnline":"2023-11-29T09:12:33.001Z","noCamera":3,"cameras":[{"no":1,"id":"9a48824e-829d-11ee-b962-0242ac120002","status":"online","lastOnline":"2023-11-29T09:12:33.001Z"},{"no":2,"id":"bb791d8e-829d-11ee-b962-0242ac120002","status":"online","lastOnline":"2023-11-29T09:12:33.001Z"},{"no":3,"id":"c79794c4-829d-11ee-b962-0242ac120002","status":"online","lastOnline":"2023-11-29T09:12:33.001Z"}]}}'
+[2:33:17 PM] ›     [VALIDATOR] ✖  error     Violation: response.body Response body must have required property 'Cameras'
+[2:34:17 PM] › [HTTP SERVER] ℹ  info      HTTP request is: 'method'" GET |'URL': "/GetStatus?params=3"  |'header':  {"accept":"application/json","user-agent":"PostmanRuntime/7.35.0","postman-token":"21dfeb6a-bc97-4593-aaff-e895cd08778d","host":"0.0.0.0:4012","accept-encoding":"gzip, deflate, br","connection":"keep-alive"} |'body: ' null
+[2:34:17 PM] ›     [NEGOTIATOR] ℹ  info      Request contains an accept header: application/json
+[2:34:17 PM] ›     [VALIDATOR] ✔  success   The request passed the validation rules. Looking for the best response
+[2:34:17 PM] ›     [NEGOTIATOR] ✔  success   Found a compatible content for application/json
+[2:34:17 PM] ›     [NEGOTIATOR] ✔  success   Responding with the requested status code 200
+[2:34:17 PM] ›     [NEGOTIATOR] ℹ  info      > Responding with "200"
+[2:34:17 PM] › [HTTP SERVER] ℹ  info      HTTP response for HTTP-Verb: GET URL: /GetStatus?params=3 is '{"statusCode":200,"headers":{"Content-type":"application/json"},"body":{"sn":"0904H210008","firmware":"1.200.30","regStatus":"Registered","lastOnline":"2023-11-29T09:12:33.001Z","noCamera":3,"cameras":[{"no":1,"id":"9a48824e-829d-11ee-b962-0242ac120002","status":"online","lastOnline":"2023-11-29T09:12:33.001Z"},{"no":2,"id":"bb791d8e-829d-11ee-b962-0242ac120002","status":"online","lastOnline":"2023-11-29T09:12:33.001Z"},{"no":3,"id":"c79794c4-829d-11ee-b962-0242ac120002","status":"online","lastOnline":"2023-11-29T09:12:33.001Z"}]}}'
+[2:34:17 PM] ›     [VALIDATOR] ✖  error     Violation: response.body Response body must have required property 'Cameras'
+[2:35:09 PM] › [HTTP SERVER] ℹ  info      HTTP request is: 'method'" POST |'URL': "/RegisterJetsonboxid?jetson_uuid=d290f1ee-6c54-4b01-90e6-d701748f0851&username=Vipul&clusterId=Hola123&houseId=1house2"  |'header':  {"user-agent":"PostmanRuntime/7.35.0","accept":"*/*","postman-token":"9c6c60fb-90f2-47c8-80e3-a8468ef064f0","host":"0.0.0.0:4012","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"0"} |'body: ' null
+[2:35:09 PM] ›     [NEGOTIATOR] ℹ  info      Request contains an accept header: */*
+[2:35:09 PM] ›     [VALIDATOR] ✔  success   The request passed the validation rules. Looking for the best response
+[2:35:09 PM] ›     [NEGOTIATOR] ⚠  warning   Unable to find content for */*
+[2:35:09 PM] ›     [NEGOTIATOR] ✔  success   Responding with the requested status code 200
+[2:35:09 PM] ›     [NEGOTIATOR] ℹ  info      > Responding with "200"
+[2:35:09 PM] › [HTTP SERVER] ℹ  info      HTTP response for HTTP-Verb: POST URL: /RegisterJetsonboxid?jetson_uuid=d290f1ee-6c54-4b01-90e6-d701748f0851&username=Vipul&clusterId=Hola123&houseId=1house2 is '{"statusCode":200,"headers":{}}'
+[2:35:28 PM] › [HTTP SERVER] ℹ  info      HTTP request is: 'method'" POST |'URL': "/RegisterJetsonboxid?jetson_uuid=d290f1ee-6c54-4b01-90e6-d701748f0851&username=Vipul&clusterId=Hola123&houseId="  |'header':  {"user-agent":"PostmanRuntime/7.35.0","accept":"*/*","postman-token":"5eedb221-07c8-472d-b879-4022947e52fa","host":"0.0.0.0:4012","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"0"} |'body: ' null
+[2:35:28 PM] ›     [NEGOTIATOR] ℹ  info      Request contains an accept header: */*
+[2:35:28 PM] ›     [VALIDATOR] ✔  success   The request passed the validation rules. Looking for the best response
+[2:35:28 PM] ›     [NEGOTIATOR] ⚠  warning   Unable to find content for */*
+[2:35:28 PM] ›     [NEGOTIATOR] ✔  success   Responding with the requested status code 200
+[2:35:28 PM] ›     [NEGOTIATOR] ℹ  info      > Responding with "200"
+[2:35:28 PM] › [HTTP SERVER] ℹ  info      HTTP response for HTTP-Verb: POST URL: /RegisterJetsonboxid?jetson_uuid=d290f1ee-6c54-4b01-90e6-d701748f0851&username=Vipul&clusterId=Hola123&houseId= is '{"statusCode":200,"headers":{}}'
+[2:35:44 PM] › [HTTP SERVER] ℹ  info      HTTP request is: 'method'" POST |'URL': "/RegisterJetsonboxid?jetson_uuid=&username=&clusterId=&houseId="  |'header':  {"user-agent":"PostmanRuntime/7.35.0","accept":"*/*","postman-token":"4b1fa3be-7fb6-41ad-964b-85ad4d318c23","host":"0.0.0.0:4012","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"0"} |'body: ' null
+[2:35:44 PM] ›     [NEGOTIATOR] ℹ  info      Request contains an accept header: */*
+[2:35:44 PM] ›     [VALIDATOR] ✔  success   The request passed the validation rules. Looking for the best response
+[2:35:44 PM] ›     [NEGOTIATOR] ⚠  warning   Unable to find content for */*
+[2:35:44 PM] ›     [NEGOTIATOR] ✔  success   Responding with the requested status code 200
+[2:35:44 PM] ›     [NEGOTIATOR] ℹ  info      > Responding with "200"
+[2:35:44 PM] › [HTTP SERVER] ℹ  info      HTTP response for HTTP-Verb: POST URL: /RegisterJetsonboxid?jetson_uuid=&username=&clusterId=&houseId= is '{"statusCode":200,"headers":{}}'
+[2:35:51 PM] › [HTTP SERVER] ℹ  info      HTTP request is: 'method'" POST |'URL': "/RegisterJetsonboxid"  |'header':  {"user-agent":"PostmanRuntime/7.35.0","accept":"*/*","postman-token":"8ec747e9-d980-470f-adb5-eab872050e5f","host":"0.0.0.0:4012","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"0"} |'body: ' null
+[2:35:51 PM] ›     [NEGOTIATOR] ℹ  info      Request contains an accept header: */*
+[2:35:51 PM] ›     [VALIDATOR] ✔  success   The request passed the validation rules. Looking for the best response
+[2:35:51 PM] ›     [NEGOTIATOR] ⚠  warning   Unable to find content for */*
+[2:35:51 PM] ›     [NEGOTIATOR] ✔  success   Responding with the requested status code 200
+[2:35:51 PM] ›     [NEGOTIATOR] ℹ  info      > Responding with "200"
+[2:35:51 PM] › [HTTP SERVER] ℹ  info      HTTP response for HTTP-Verb: POST URL: /RegisterJetsonboxid is '{"statusCode":200,"headers":{}}'
+[2:36:11 PM] › [HTTP SERVER] ℹ  info      HTTP request is: 'method'" POST |'URL': "/RegisterJetsonboxid?jetson_uuid=%3Cstring%3E&username=%3Cstring%3E&clusterId=%3Cstring%3E&houseId=%3Cstring%3E"  |'header':  {"user-agent":"PostmanRuntime/7.35.0","accept":"*/*","postman-token":"d2a47585-dee7-462e-b7b1-7f66868b0ee2","host":"0.0.0.0:4012","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"0"} |'body: ' null
+[2:36:11 PM] ›     [NEGOTIATOR] ℹ  info      Request contains an accept header: */*
+[2:36:11 PM] ›     [VALIDATOR] ✔  success   The request passed the validation rules. Looking for the best response
+[2:36:11 PM] ›     [NEGOTIATOR] ⚠  warning   Unable to find content for */*
+[2:36:11 PM] ›     [NEGOTIATOR] ✔  success   Responding with the requested status code 200
+[2:36:11 PM] ›     [NEGOTIATOR] ℹ  info      > Responding with "200"
+[2:36:11 PM] › [HTTP SERVER] ℹ  info      HTTP response for HTTP-Verb: POST URL: /RegisterJetsonboxid?jetson_uuid=%3Cstring%3E&username=%3Cstring%3E&clusterId=%3Cstring%3E&houseId=%3Cstring%3E is '{"statusCode":200,"headers":{}}'
+[2:36:27 PM] › [HTTP SERVER] ℹ  info      HTTP request is: 'method'" GET |'URL': "/GetRTSPURL?jetson_uuid=d290f1ee-6c54-4b01-90e6-d701748f0851&cameraId=1"  |'header':  {"user-agent":"PostmanRuntime/7.35.0","accept":"*/*","postman-token":"c753a486-8b95-49af-a72f-e5ac64c177c5","host":"0.0.0.0:4012","accept-encoding":"gzip, deflate, br","connection":"keep-alive"} |'body: ' null
+[2:36:27 PM] ›     [NEGOTIATOR] ℹ  info      Request contains an accept header: */*
+[2:36:27 PM] ›     [VALIDATOR] ✔  success   The request passed the validation rules. Looking for the best response
+[2:36:27 PM] ›     [NEGOTIATOR] ⚠  warning   Unable to find content for */*
+[2:36:27 PM] ›     [NEGOTIATOR] ✔  success   Responding with the requested status code 200
+[2:36:27 PM] ›     [NEGOTIATOR] ℹ  info      > Responding with "200"
+[2:36:27 PM] › [HTTP SERVER] ℹ  info      HTTP response for HTTP-Verb: GET URL: /GetRTSPURL?jetson_uuid=d290f1ee-6c54-4b01-90e6-d701748f0851&cameraId=1 is '{"statusCode":200,"headers":{}}'
+[2:36:39 PM] › [HTTP SERVER] ℹ  info      HTTP request is: 'method'" GET |'URL': "/GetRTSPURL?jetson_uuid=&cameraId="  |'header':  {"user-agent":"PostmanRuntime/7.35.0","accept":"*/*","postman-token":"4688254c-d689-4fe6-836d-e9cd3aa00453","host":"0.0.0.0:4012","accept-encoding":"gzip, deflate, br","connection":"keep-alive"} |'body: ' null
+[2:36:39 PM] ›     [NEGOTIATOR] ℹ  info      Request contains an accept header: */*
+[2:36:39 PM] ›     [VALIDATOR] ✔  success   The request passed the validation rules. Looking for the best response
+[2:36:39 PM] ›     [NEGOTIATOR] ⚠  warning   Unable to find content for */*
+[2:36:39 PM] ›     [NEGOTIATOR] ✔  success   Responding with the requested status code 200
+[2:36:39 PM] ›     [NEGOTIATOR] ℹ  info      > Responding with "200"
+[2:36:39 PM] › [HTTP SERVER] ℹ  info      HTTP response for HTTP-Verb: GET URL: /GetRTSPURL?jetson_uuid=&cameraId= is '{"statusCode":200,"headers":{}}'
+[2:36:43 PM] › [HTTP SERVER] ℹ  info      HTTP request is: 'method'" GET |'URL': "/GetRTSPURL?jetson_uuid="  |'header':  {"user-agent":"PostmanRuntime/7.35.0","accept":"*/*","postman-token":"e8840012-3826-4263-805a-c6a32be1818f","host":"0.0.0.0:4012","accept-encoding":"gzip, deflate, br","connection":"keep-alive"} |'body: ' null
+[2:36:43 PM] ›     [NEGOTIATOR] ℹ  info      Request contains an accept header: */*
+[2:36:43 PM] ›     [VALIDATOR] ✔  success   The request passed the validation rules. Looking for the best response
+[2:36:43 PM] ›     [NEGOTIATOR] ⚠  warning   Unable to find content for */*
+[2:36:43 PM] ›     [NEGOTIATOR] ✔  success   Responding with the requested status code 200
+[2:36:43 PM] ›     [NEGOTIATOR] ℹ  info      > Responding with "200"
+[2:36:43 PM] › [HTTP SERVER] ℹ  info      HTTP response for HTTP-Verb: GET URL: /GetRTSPURL?jetson_uuid= is '{"statusCode":200,"headers":{}}'
+[2:36:47 PM] › [HTTP SERVER] ℹ  info      HTTP request is: 'method'" GET |'URL': "/GetRTSPURL"  |'header':  {"user-agent":"PostmanRuntime/7.35.0","accept":"*/*","postman-token":"88d633ce-635c-4691-b8ea-bd538f01d180","host":"0.0.0.0:4012","accept-encoding":"gzip, deflate, br","connection":"keep-alive"} |'body: ' null
+[2:36:47 PM] ›     [NEGOTIATOR] ℹ  info      Request contains an accept header: */*
+[2:36:47 PM] ›     [VALIDATOR] ✔  success   The request passed the validation rules. Looking for the best response
+[2:36:47 PM] ›     [NEGOTIATOR] ⚠  warning   Unable to find content for */*
+[2:36:47 PM] ›     [NEGOTIATOR] ✔  success   Responding with the requested status code 200
+[2:36:47 PM] ›     [NEGOTIATOR] ℹ  info      > Responding with "200"
+[2:36:47 PM] › [HTTP SERVER] ℹ  info      HTTP response for HTTP-Verb: GET URL: /GetRTSPURL is '{"statusCode":200,"headers":{}}'
+[2:37:04 PM] › [HTTP SERVER] ℹ  info      HTTP request is: 'method'" GET |'URL': "/GetRTSPURL?jetson_uuid=2&cameraId=3"  |'header':  {"user-agent":"PostmanRuntime/7.35.0","accept":"*/*","postman-token":"70baebff-9d4e-4c8c-8b38-2afdbbed552d","host":"0.0.0.0:4012","accept-encoding":"gzip, deflate, br","connection":"keep-alive"} |'body: ' null
+[2:37:04 PM] ›     [NEGOTIATOR] ℹ  info      Request contains an accept header: */*
+[2:37:04 PM] ›     [VALIDATOR] ✔  success   The request passed the validation rules. Looking for the best response
+[2:37:04 PM] ›     [NEGOTIATOR] ⚠  warning   Unable to find content for */*
+[2:37:04 PM] ›     [NEGOTIATOR] ✔  success   Responding with the requested status code 200
+[2:37:04 PM] ›     [NEGOTIATOR] ℹ  info      > Responding with "200"
+[2:37:04 PM] › [HTTP SERVER] ℹ  info      HTTP response for HTTP-Verb: GET URL: /GetRTSPURL?jetson_uuid=2&cameraId=3 is '{"statusCode":200,"headers":{}}'
+[2:37:13 PM] › [HTTP SERVER] ℹ  info      HTTP request is: 'method'" GET |'URL': "/GetRTSPURL?jetson_uuid=d290f1ee-6c54-4b01-90e6-d701748f0851&cameraId=1"  |'header':  {"user-agent":"PostmanRuntime/7.35.0","accept":"*/*","postman-token":"5a591d77-d46a-498a-a22a-e08f6cc11af8","host":"0.0.0.0:4012","accept-encoding":"gzip, deflate, br","connection":"keep-alive"} |'body: ' null
+[2:37:13 PM] ›     [NEGOTIATOR] ℹ  info      Request contains an accept header: */*
+[2:37:13 PM] ›     [VALIDATOR] ✔  success   The request passed the validation rules. Looking for the best response
+[2:37:13 PM] ›     [NEGOTIATOR] ⚠  warning   Unable to find content for */*
+[2:37:13 PM] ›     [NEGOTIATOR] ✔  success   Responding with the requested status code 200
+[2:37:13 PM] ›     [NEGOTIATOR] ℹ  info      > Responding with "200"
+[2:37:13 PM] › [HTTP SERVER] ℹ  info      HTTP response for HTTP-Verb: GET URL: /GetRTSPURL?jetson_uuid=d290f1ee-6c54-4b01-90e6-d701748f0851&cameraId=1 is '{"statusCode":200,"headers":{}}'
+[2:37:44 PM] › [HTTP SERVER] ℹ  info      HTTP request is: 'method'" GET |'URL': "/StopRTSP?JetsonID=[object%20Object]&camera_id=%3Cstring%3E"  |'header':  {"user-agent":"PostmanRuntime/7.35.0","accept":"*/*","postman-token":"d3be5501-03b3-479a-80d3-7a8d5da791dc","host":"0.0.0.0:4012","accept-encoding":"gzip, deflate, br","connection":"keep-alive"} |'body: ' null
+[2:37:44 PM] ›     [NEGOTIATOR] ℹ  info      Request contains an accept header: */*
+[2:37:44 PM] ›     [VALIDATOR] ✔  success   The request passed the validation rules. Looking for the best response
+[2:37:44 PM] ›     [NEGOTIATOR] ⚠  warning   Unable to find content for */*
+[2:37:44 PM] ›     [NEGOTIATOR] ✔  success   Responding with the requested status code 200
+[2:37:44 PM] ›     [NEGOTIATOR] ℹ  info      > Responding with "200"
+[2:37:44 PM] › [HTTP SERVER] ℹ  info      HTTP response for HTTP-Verb: GET URL: /StopRTSP?JetsonID=[object%20Object]&camera_id=%3Cstring%3E is '{"statusCode":200,"headers":{}}'
+[2:37:51 PM] › [HTTP SERVER] ℹ  info      HTTP request is: 'method'" GET |'URL': "/StopRTSP?JetsonID=d290f1ee-6c54-4b01-90e6-d701748f0851&camera_id=9a48824e-829d-11ee-b962-0242ac120002"  |'header':  {"user-agent":"PostmanRuntime/7.35.0","accept":"*/*","postman-token":"56150d84-bef6-4cc0-9420-429e6af3d9b3","host":"0.0.0.0:4012","accept-encoding":"gzip, deflate, br","connection":"keep-alive"} |'body: ' null
+[2:37:51 PM] ›     [NEGOTIATOR] ℹ  info      Request contains an accept header: */*
+[2:37:51 PM] ›     [VALIDATOR] ✔  success   The request passed the validation rules. Looking for the best response
+[2:37:51 PM] ›     [NEGOTIATOR] ⚠  warning   Unable to find content for */*
+[2:37:51 PM] ›     [NEGOTIATOR] ✔  success   Responding with the requested status code 200
+[2:37:51 PM] ›     [NEGOTIATOR] ℹ  info      > Responding with "200"
+[2:37:51 PM] › [HTTP SERVER] ℹ  info      HTTP response for HTTP-Verb: GET URL: /StopRTSP?JetsonID=d290f1ee-6c54-4b01-90e6-d701748f0851&camera_id=9a48824e-829d-11ee-b962-0242ac120002 is '{"statusCode":200,"headers":{}}'
+[2:38:00 PM] › [HTTP SERVER] ℹ  info      HTTP request is: 'method'" POST |'URL': "/SetCamera?jetson_id=d290f1ee-6c54-4b01-90e6-d701748f0851"  |'header':  {"user-agent":"PostmanRuntime/7.35.0","accept":"*/*","postman-token":"e708285c-3433-4ba5-8e3c-14933383767d","host":"0.0.0.0:4012","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"0"} |'body: ' null
+[2:38:00 PM] ›     [NEGOTIATOR] ℹ  info      Request contains an accept header: */*
+[2:38:00 PM] ›     [VALIDATOR] ✔  success   The request passed the validation rules. Looking for the best response
+[2:38:00 PM] ›     [NEGOTIATOR] ⚠  warning   Unable to find content for */*
+[2:38:00 PM] ›     [NEGOTIATOR] ✔  success   Responding with the requested status code 200
+[2:38:00 PM] ›     [NEGOTIATOR] ℹ  info      > Responding with "200"
+[2:38:00 PM] › [HTTP SERVER] ℹ  info      HTTP response for HTTP-Verb: POST URL: /SetCamera?jetson_id=d290f1ee-6c54-4b01-90e6-d701748f0851 is '{"statusCode":200,"headers":{}}'
+[2:38:06 PM] › [HTTP SERVER] ℹ  info      HTTP request is: 'method'" POST |'URL': "/SetCamera?jetson_id=%3Cstring%3E"  |'header':  {"user-agent":"PostmanRuntime/7.35.0","accept":"*/*","postman-token":"644949aa-7742-4b4c-a9d4-8c2a9d344067","host":"0.0.0.0:4012","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"0"} |'body: ' null
+[2:38:06 PM] ›     [NEGOTIATOR] ℹ  info      Request contains an accept header: */*
+[2:38:06 PM] ›     [VALIDATOR] ✔  success   The request passed the validation rules. Looking for the best response
+[2:38:06 PM] ›     [NEGOTIATOR] ⚠  warning   Unable to find content for */*
+[2:38:06 PM] ›     [NEGOTIATOR] ✔  success   Responding with the requested status code 200
+[2:38:06 PM] ›     [NEGOTIATOR] ℹ  info      > Responding with "200"
+[2:38:06 PM] › [HTTP SERVER] ℹ  info      HTTP response for HTTP-Verb: POST URL: /SetCamera?jetson_id=%3Cstring%3E is '{"statusCode":200,"headers":{}}'
+[2:38:20 PM] › [HTTP SERVER] ℹ  info      HTTP request is: 'method'" POST |'URL': "/api/device/alert"  |'header':  {"content-type":"application/json","user-agent":"PostmanRuntime/7.35.0","accept":"*/*","postman-token":"3746a498-5b1b-475f-9c03-dc47a84f3d10","host":"0.0.0.0:4012","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"125"} |'body: ' {"jetson_uuid":"d290f1ee-6c54-4b01-90e6-d701748f0851","status":"offline","timestamp":"2023-11-29T09:12:33.001Z"}
+[2:38:20 PM] ›     [NEGOTIATOR] ℹ  info      Request contains an accept header: */*
+[2:38:20 PM] ›     [VALIDATOR] ✔  success   The request passed the validation rules. Looking for the best response
+[2:38:20 PM] ›     [NEGOTIATOR] ⚠  warning   Unable to find content for */*
+[2:38:20 PM] ›     [NEGOTIATOR] ✔  success   Responding with the requested status code 201
+[2:38:20 PM] ›     [NEGOTIATOR] ℹ  info      > Responding with "201"
+[2:38:20 PM] › [HTTP SERVER] ℹ  info      HTTP response for HTTP-Verb: POST URL: /api/device/alert is '{"statusCode":201,"headers":{}}'
+[2:38:26 PM] › [HTTP SERVER] ℹ  info      HTTP request is: 'method'" POST |'URL': "/api/device/alert"  |'header':  {"content-type":"application/json","user-agent":"PostmanRuntime/7.35.0","accept":"*/*","postman-token":"7bd29e4c-8bd8-40e0-838b-27330680ab02","host":"0.0.0.0:4012","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"82"} |'body: ' {"jetson_uuid":"<uuid>","status":"<string>","timestamp":"<dateTime>"}
+[2:38:26 PM] ›     [NEGOTIATOR] ℹ  info      Request contains an accept header: */*
+[2:38:26 PM] ›     [VALIDATOR] ⚠  warning   Request did not pass the validation rules
+[2:38:26 PM] ›     [VALIDATOR] ✖  error     Request body property jetson_uuid must match format "uuid"
+[2:38:26 PM] ›     [VALIDATOR] ✖  error     Request body property timestamp must match format "date-time"
+[2:38:26 PM] ›     [NEGOTIATOR] ✔  success   Found response 400. I'll try with it.
+[2:38:26 PM] ›     [NEGOTIATOR] ✔  success   Responding with the requested status code 400
+[2:38:26 PM] ›     [NEGOTIATOR] ℹ  info      > Responding with "400"
+[2:38:26 PM] › [HTTP SERVER] ℹ  info      HTTP response for HTTP-Verb: POST URL: /api/device/alert is '{"statusCode":400,"headers":{}}'
+[2:38:26 PM] ›     [VALIDATOR] ✖  error     Violation: request.body.jetson_uuid Request body property jetson_uuid must match format "uuid"
+[2:38:26 PM] ›     [VALIDATOR] ✖  error     Violation: request.body.timestamp Request body property timestamp must match format "date-time"
+[2:38:29 PM] › [HTTP SERVER] ℹ  info      HTTP request is: 'method'" POST |'URL': "/api/device/alert"  |'header':  {"content-type":"application/json","user-agent":"PostmanRuntime/7.35.0","accept":"*/*","postman-token":"71a0a6e0-207f-4e1c-9d9a-036c285b49c3","host":"0.0.0.0:4012","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"82"} |'body: ' {"jetson_uuid":"<uuid>","status":"<string>","timestamp":"<dateTime>"}
+[2:38:29 PM] ›     [NEGOTIATOR] ℹ  info      Request contains an accept header: */*
+[2:38:29 PM] ›     [VALIDATOR] ⚠  warning   Request did not pass the validation rules
+[2:38:29 PM] ›     [VALIDATOR] ✖  error     Request body property jetson_uuid must match format "uuid"
+[2:38:29 PM] ›     [VALIDATOR] ✖  error     Request body property timestamp must match format "date-time"
+[2:38:29 PM] ›     [NEGOTIATOR] ✔  success   Found response 400. I'll try with it.
+[2:38:29 PM] ›     [NEGOTIATOR] ✔  success   Responding with the requested status code 400
+[2:38:29 PM] ›     [NEGOTIATOR] ℹ  info      > Responding with "400"
+[2:38:29 PM] › [HTTP SERVER] ℹ  info      HTTP response for HTTP-Verb: POST URL: /api/device/alert is '{"statusCode":400,"headers":{}}'
+[2:38:29 PM] ›     [VALIDATOR] ✖  error     Violation: request.body.jetson_uuid Request body property jetson_uuid must match format "uuid"
+[2:38:29 PM] ›     [VALIDATOR] ✖  error     Violation: request.body.timestamp Request body property timestamp must match format "date-time"
+[2:38:38 PM] › [HTTP SERVER] ℹ  info      HTTP request is: 'method'" POST |'URL': "/api/device/camera/alert"  |'header':  {"content-type":"application/json","user-agent":"PostmanRuntime/7.35.0","accept":"*/*","postman-token":"39bd4e94-c420-4728-9b90-bc68ad4d1db7","host":"0.0.0.0:4012","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"180"} |'body: ' {"jetson_uuid":"d290f1ee-6c54-4b01-90e6-d701748f0851","camera_id":"9a48824e-829d-11ee-b962-0242ac120002","status":"offline","timestamp":"2023-11-29T09:12:33.001Z"}
+[2:38:38 PM] ›     [NEGOTIATOR] ℹ  info      Request contains an accept header: */*
+[2:38:38 PM] ›     [VALIDATOR] ✔  success   The request passed the validation rules. Looking for the best response
+[2:38:38 PM] ›     [NEGOTIATOR] ⚠  warning   Unable to find content for */*
+[2:38:38 PM] ›     [NEGOTIATOR] ✔  success   Responding with the requested status code 201
+[2:38:38 PM] ›     [NEGOTIATOR] ℹ  info      > Responding with "201"
+[2:38:38 PM] › [HTTP SERVER] ℹ  info      HTTP response for HTTP-Verb: POST URL: /api/device/camera/alert is '{"statusCode":201,"headers":{}}'
+[2:38:47 PM] › [HTTP SERVER] ℹ  info      HTTP request is: 'method'" POST |'URL': "/api/device/camera/alert"  |'header':  {"content-type":"application/json","user-agent":"PostmanRuntime/7.35.0","accept":"*/*","postman-token":"d093751b-6b5d-4a5f-a8b7-fa5a05ca9905","host":"0.0.0.0:4012","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"109"} |'body: ' {"jetson_uuid":"<uuid>","camera_id":"<string>","status":"<string>","timestamp":"<dateTime>"}
+[2:38:47 PM] ›     [NEGOTIATOR] ℹ  info      Request contains an accept header: */*
+[2:38:47 PM] ›     [VALIDATOR] ⚠  warning   Request did not pass the validation rules
+[2:38:47 PM] ›     [VALIDATOR] ✖  error     Request body property jetson_uuid must match format "uuid"
+[2:38:47 PM] ›     [VALIDATOR] ✖  error     Request body property timestamp must match format "date-time"
+[2:38:47 PM] ›     [NEGOTIATOR] ✔  success   Found response 400. I'll try with it.
+[2:38:47 PM] ›     [NEGOTIATOR] ✔  success   Responding with the requested status code 400
+[2:38:47 PM] ›     [NEGOTIATOR] ℹ  info      > Responding with "400"
+[2:38:47 PM] › [HTTP SERVER] ℹ  info      HTTP response for HTTP-Verb: POST URL: /api/device/camera/alert is '{"statusCode":400,"headers":{}}'
+[2:38:47 PM] ›     [VALIDATOR] ✖  error     Violation: request.body.jetson_uuid Request body property jetson_uuid must match format "uuid"
+[2:38:47 PM] ›     [VALIDATOR] ✖  error     Violation: request.body.timestamp Request body property timestamp must match format "date-time"
+[2:38:52 PM] › [HTTP SERVER] ℹ  info      HTTP request is: 'method'" POST |'URL': "/api/device/camera/alert"  |'header':  {"content-type":"application/json","user-agent":"PostmanRuntime/7.35.0","accept":"*/*","postman-token":"30f37f5b-e4cf-4f03-98fb-322447612cb9","host":"0.0.0.0:4012","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"109"} |'body: ' {"jetson_uuid":"<uuid>","camera_id":"<string>","status":"<string>","timestamp":"<dateTime>"}
+[2:38:52 PM] ›     [NEGOTIATOR] ℹ  info      Request contains an accept header: */*
+[2:38:52 PM] ›     [VALIDATOR] ⚠  warning   Request did not pass the validation rules
+[2:38:52 PM] ›     [VALIDATOR] ✖  error     Request body property jetson_uuid must match format "uuid"
+[2:38:52 PM] ›     [VALIDATOR] ✖  error     Request body property timestamp must match format "date-time"
+[2:38:52 PM] ›     [NEGOTIATOR] ✔  success   Found response 400. I'll try with it.
+[2:38:52 PM] ›     [NEGOTIATOR] ✔  success   Responding with the requested status code 400
+[2:38:52 PM] ›     [NEGOTIATOR] ℹ  info      > Responding with "400"
+[2:38:52 PM] › [HTTP SERVER] ℹ  info      HTTP response for HTTP-Verb: POST URL: /api/device/camera/alert is '{"statusCode":400,"headers":{}}'
+[2:38:52 PM] ›     [VALIDATOR] ✖  error     Violation: request.body.jetson_uuid Request body property jetson_uuid must match format "uuid"
+[2:38:52 PM] ›     [VALIDATOR] ✖  error     Violation: request.body.timestamp Request body property timestamp must match format "date-time"
+[2:39:00 PM] › [HTTP SERVER] ℹ  info      HTTP request is: 'method'" POST |'URL': "/api/device/camera/feature/alert"  |'header':  {"content-type":"application/json","user-agent":"PostmanRuntime/7.35.0","accept":"*/*","postman-token":"6ed34b48-f978-4ff4-810b-37a33506b1ee","host":"0.0.0.0:4012","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"252"} |'body: ' {"sn":"0904H210008","cameraId":"c79794c4-829d-11ee-b962-0242ac120002","timestamp":"2023-11-29T09:12:33.001Z","confidence":0.67,"alert":"intrusion","subAlert":"person","photoUrl":"video","videoUrl":"https://ipfront.com"}
+[2:39:00 PM] ›     [NEGOTIATOR] ℹ  info      Request contains an accept header: */*
+[2:39:00 PM] ›     [VALIDATOR] ✔  success   The request passed the validation rules. Looking for the best response
+[2:39:00 PM] ›     [NEGOTIATOR] ⚠  warning   Unable to find content for */*
+[2:39:00 PM] ›     [NEGOTIATOR] ✔  success   Responding with the requested status code 201
+[2:39:00 PM] ›     [NEGOTIATOR] ℹ  info      > Responding with "201"
+[2:39:00 PM] › [HTTP SERVER] ℹ  info      HTTP response for HTTP-Verb: POST URL: /api/device/camera/feature/alert is '{"statusCode":201,"headers":{}}'
+[2:39:08 PM] › [HTTP SERVER] ℹ  info      HTTP request is: 'method'" POST |'URL': "/api/device/camera/feature/alert"  |'header':  {"content-type":"application/json","user-agent":"PostmanRuntime/7.35.0","accept":"*/*","postman-token":"82cc4bdc-29c3-4fd9-a0d9-825bf5adb7d4","host":"0.0.0.0:4012","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"206"} |'body: ' {"sn":"<string>","cameraId":"<string>","timestamp":"<dateTime>","confidence":"<number>","alert":"<string>","subAlert":"<string>","photoUrl":"<string>","videoUrl":"<string>"}
+[2:39:08 PM] ›     [NEGOTIATOR] ℹ  info      Request contains an accept header: */*
+[2:39:08 PM] ›     [VALIDATOR] ⚠  warning   Request did not pass the validation rules
+[2:39:08 PM] ›     [VALIDATOR] ✖  error     Request body property timestamp must match format "date-time"
+[2:39:08 PM] ›     [VALIDATOR] ✖  error     Request body property confidence must be number
+[2:39:08 PM] ›     [VALIDATOR] ✖  error     Request body property videoUrl must match format "url"
+[2:39:08 PM] ›     [NEGOTIATOR] ✔  success   Found response 400. I'll try with it.
+[2:39:08 PM] ›     [NEGOTIATOR] ✔  success   Responding with the requested status code 400
+[2:39:08 PM] ›     [NEGOTIATOR] ℹ  info      > Responding with "400"
+[2:39:08 PM] › [HTTP SERVER] ℹ  info      HTTP response for HTTP-Verb: POST URL: /api/device/camera/feature/alert is '{"statusCode":400,"headers":{}}'
+[2:39:08 PM] ›     [VALIDATOR] ✖  error     Violation: request.body.timestamp Request body property timestamp must match format "date-time"
+[2:39:08 PM] ›     [VALIDATOR] ✖  error     Violation: request.body.confidence Request body property confidence must be number
+[2:39:08 PM] ›     [VALIDATOR] ✖  error     Violation: request.body.videoUrl Request body property videoUrl must match format "url"
