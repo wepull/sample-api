@@ -1,0 +1,6 @@
+id,credentialUrl,startDate,reference,endDate,statusCode,scenario
+urn:uuid:989354b9-a1c8-ce84-7e11-1b957b0b0168,http://example.com,2022-01-01,example,2022-12-31,201,Successful
+urn:uuid:123456b9-a1c8-aa84-7e11-1b957b01111,http://example2.com,2023-01-01,example2,2023-12-31,400,Bad Request
+urn:uuid:789101b9-a1c8-cc84-7e11-1b957b02222,http://example3.com,2024-01-01,example3,2024-12-31,401,Authentication Required
+urn:uuid:321654b9-a1c8-dd84-7e11-1b957b03333,http://example4.com,2025-01-01,example4,2025-12-31,500,Server Error
+urn:uuid:987654b9-a1c8-ee84-7e11-1b957b04444,http://example5.com,2026-01-01,example5,2026-12-31,503,Service Unavailable

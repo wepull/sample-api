@@ -1,0 +1,5 @@
+coc-number,coc-branch-number,trade-name,size,offset,statusCode,scenario
+49061366,029013332373,ipsum proident,20,0,200,successful operation
+84348161,199761366153,sint in do aliquip,20,0,200,successful operation
+12345678,123456789012,random trade name,30,10,400,Bad Request
+87654321,210987654321,another random trade name,40,20,401,Authentication Required

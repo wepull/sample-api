@@ -1,0 +1,7 @@
+credential-url,size,offset,id,statusCode,scenario
+Ih1pSJD1x:j=,20,0,84f9ee01-fa69-9941-0b6a-bae9e77c0d65,200,successful operation
+DEdP://&dQ,20,0,445d3109-d118-147e-66fc-09f91b0288df,200,successful operation
+randomUrl1,45,5,randomId1,400,Bad Request
+randomUrl2,35,10,randomId2,400,Bad Request
+randomUrl3,50,15,randomId3,401,Authentication Required
+randomUrl4,30,20,randomId4,401,Authentication Required

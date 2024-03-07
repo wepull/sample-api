@@ -1,0 +1,4 @@
+id,initials,firstName,middleName,lastName,birthDate,birthPlace,phone,email,postalCode,houseNumber,houseNumberPostfix,countryCode,reference,statusCode,scenario
+urn:uuid:2f10e9a2-38fa-b478-92e1-35aadacc6e4c,ABC,John,Doe,Smith,1961-11-17,New York,1234567890,johnsmith@gmail.com,10001,123,A,US,ref123,200,successful operation
+urn:uuid:3f20e9b2-48fb-a578-82e2-45badbcc7e5d,DEF,Mark,Allen,Jones,1972-05-22,Los Angeles,0987654321,markjones@yahoo.com,90001,456,B,GB,ref456,400,Bad Request
+urn:uuid:4g30e9c3-58gc-b678-92f3-56cadddc8e6e,GHI,Peter,Parker,Johnson,1983-09-27,Chicago,1122334455,peterjohnson@hotmail.com,60601,789,C,CA,ref789,401,Authentication Required

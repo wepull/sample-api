@@ -1,0 +1,7 @@
+id,reference,revoked,suspendedUntil,endDate,statusCode,scenario
+urn:uuid:cc46d422-afc8-aff7-63c3-f50d9661598e,ref123,false,2022-12-12,2023-12-12,200,successful operation
+urn:uuid:def456gh7,ref456,true,2022-05-15,2022-11-15,400,Bad Request
+urn:uuid:ijk8910lmn,ref789,false,2023-01-01,2023-06-01,401,Authentication Required
+urn:uuid:opq123rst,ref321,true,2022-07-07,2022-12-12,200,successful operation
+urn:uuid:uvw456xyz,ref654,false,2023-02-02,2023-07-07,400,Bad Request
+urn:uuid:abc789def,ref987,true,2022-08-08,2022-09-09,401,Authentication Required
