@@ -1,0 +1,4 @@
+birthDate,initials,lastName,firstName,middleName,birthPlace,phone,email,postalCode,houseNumber,houseNumberPostfix,countryCode,reference,statusCode,scenario
+1980-05-15,JD,Smith,John,Doe,New York,123456789,johnsmith@gmail.com,12345,12,A,US,ref123,201,successful operation
+1975-03-20,AB,Brown,Alice,Beth,Los Angeles,987654321,alicebrown@gmail.com,54321,34,B,US,ref456,400,Bad Request
+1990-12-30,CD,Johnson,Chris,Daniel,Chicago,456789123,chrisjohnson@gmail.com,23154,56,C,US,ref789,401,Authentication Required

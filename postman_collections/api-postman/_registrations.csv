@@ -1,0 +1,7 @@
+size,offset,recipient-id,credential-url,statusCode,scenario
+20,0,2e8e4234-3b8d-e972-f137-40aa6d917efd,https://example.com,200,successful operation
+45,10,urn:uuid:802af7fb-67ea-7fc9-4f64-80d083d39885,https://example.com,200,successful operation
+50,5,6078edff-4c97-0d92-cd5c-aebc571560a1,https://example.com,400,Bad Request
+30,15,78fcc13c-a52e-ee40-464d-f10df5e8c00a,https://example.com,400,Bad Request
+10,20,802af7fb-67ea-7fc9-4f64-80d083d39885,https://example.com,401,Authentication Required
+35,25,2e8e4234-3b8d-e972-f137-40aa6d917efd,https://example.com,401,Authentication Required

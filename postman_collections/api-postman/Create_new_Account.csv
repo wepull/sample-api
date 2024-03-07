@@ -1,0 +1,11 @@
+email,statusCode,scenario
+user1@example.com,201,successful operation
+user2@example.com,400,Bad Request
+user3@example.com,201,successful operation
+user4@example.com,400,Bad Request
+user5@example.com,201,successful operation
+user6@example.com,400,Bad Request
+user7@example.com,201,successful operation
+user8@example.com,400,Bad Request
+user9@example.com,201,successful operation
+user10@example.com,400,Bad Request

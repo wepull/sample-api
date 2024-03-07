@@ -1,0 +1,4 @@
+id,tradeName,phone,email,statusCode,scenario
+urn:uuid:b7c2fb2c-057e-e87a-309c-8e4bf0f6fe3e,nostrud qui,1234567890,test@example.com,200,successful operation
+urn:uuid:123e4567-e89b-12d3-a456-426614174000,in quis Duis nostrud,0987654321,test2@example.com,400,Bad Request
+urn:uuid:123e4567-e89b-12d3-a456-426614174000,in quis Duis nostrud,0987654321,test3@example.com,401,Authentication Required

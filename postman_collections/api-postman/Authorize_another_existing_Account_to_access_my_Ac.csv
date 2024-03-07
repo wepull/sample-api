@@ -1,0 +1,4 @@
+email,statusCode,scenario
+user1@gmail.com,201,successful operation
+user2@gmail.com,400,Bad Request
+user3@gmail.com,401,Authentication Required
