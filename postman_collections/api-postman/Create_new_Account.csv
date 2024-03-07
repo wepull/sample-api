@@ -1,0 +1,9 @@
+email,statusCode,scenario
+test@example.com,201,successful operation
+bademail,400,Bad Request
+user@domain.com,201,successful operation
+invalid,400,Bad Request
+demo@site.com,201,successful operation
+notanemail,400,Bad Request
+sample@mail.com,201,successful operation
+wrongformat,400,Bad Request

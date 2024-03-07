@@ -1,0 +1,4 @@
+id,credentialUrl,startDate,reference,endDate,statusCode,scenario
+urn:uuid:83cd93fd-b72d-2242-84cb-fab3a3329d68,http://example.com,2012-10-21,ref1,2012-11-21,201,Successful
+urn:uuid:73cd93fd-b72d-2242-84cb-fab3a3329d68,http://example2.com,2012-11-21,ref2,2012-12-21,400,Bad Request
+urn:uuid:63cd93fd-b72d-2242-84cb-fab3a3329d68,http://example3.com,2012-12-21,ref3,2013-01-21,401,Authentication Required

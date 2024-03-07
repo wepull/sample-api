@@ -1,0 +1,4 @@
+id,tradeName,phone,email,statusCode,scenario
+urn:uuid:0e3201ca-38c4-9706-9f9d-11574434b109,quis qui voluptate nostrud mollit,1234567890,test@test.com,200,successful operation
+urn:uuid:1a2202db-48d5-2807-8f8e-22585535b210,ullamco fugiat,0987654321,fake@fake.com,400,Bad Request
+urn:uuid:2b3303ec-58e6-3908-7g7f-33596646c321,random tradeName,1122334455,random@random.com,401,Authentication Required

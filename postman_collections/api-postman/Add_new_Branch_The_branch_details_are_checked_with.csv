@@ -1,0 +1,5 @@
+cocNumber,cocBranchNumber,city,tradeName,phone,email,statusCode,scenario
+12345678,123456789012,Amsterdam,TradeName1,0612345678,email1@example.com,200,successful operation, existing branch returned
+87654321,210987654321,Rotterdam,TradeName2,0687654321,email2@example.com,201,successful operation, branch created
+11111111,111111111111,InvalidCity,InvalidTradeName,InvalidPhone,InvalidEmail,400,Bad Request
+22222222,222222222222,InvalidCity,InvalidTradeName,InvalidPhone,InvalidEmail,401,Authentication Required

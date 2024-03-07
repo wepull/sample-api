@@ -1,0 +1,5 @@
+coc-number,coc-branch-number,trade-name,size,offset,statusCode,scenario
+55874746,953574563896,non sint veniam consectetur,20,0,200,successful operation
+54796892,885523608787,veniam adipisicing,20,0,200,successful operation
+84739274,593284732984,random trade name,30,1,400,Bad Request
+89347239,583294732984,another random name,15,2,401,Authentication Required

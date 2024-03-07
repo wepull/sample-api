@@ -1,0 +1,7 @@
+credential-url,size,offset,id,statusCode,scenario
+1e4X:T_~{uP,20,0,6dc707fd-da24-be59-8dff-43a00daa905f,200,successful operation
+stCUAS://7]6yl%`[,20,0,e231d7b1-000c-4f48-64f2-1c9402559022,200,successful operation
+abc123,48,5,123e4567-e89b-12d3-a456-426614174000,400,Bad Request
+xyz789,10,2,123e4567-e89b-12d3-a456-426614174001,401,Authentication Required
+def456,35,3,123e4567-e89b-12d3-a456-426614174002,400,Bad Request
+ghi789,15,1,123e4567-e89b-12d3-a456-426614174003,401,Authentication Required

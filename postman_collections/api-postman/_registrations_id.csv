@@ -1,0 +1,4 @@
+id,reference,revoked,suspendedUntil,endDate,statusCode,scenario
+9e589bb1-7d22-b12d-38a2-ded132f58bd1,ref123,false,2022-09-01,2022-12-31,200,successful operation
+abc123,ref456,true,2022-10-01,2023-01-31,400,Bad Request
+def456,ref789,false,2023-01-01,2023-04-30,401,Authentication Required
