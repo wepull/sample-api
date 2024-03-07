@@ -1,0 +1,6 @@
+id,statusCode,scenario
+4ef4b1c1-2bae-4f2e-8b3a-b6ed5b5c1e5b,200,successful operation
+ab23a9f7-5a4e-4f64-8c9d-6b9254d9c6e5,400,Bad Request
+7d8f3e8a-eadb-4878-8c1a-2637aed8843e,401,Authentication Required
+d6f4a4f2-8bfa-4f52-b9a0-1b6352c2498c,500,Internal Server Error
+9b5a7bdb-9b8b-4ae2-bdb4-9911e97562e3,404,Not Found

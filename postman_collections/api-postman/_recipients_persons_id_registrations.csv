@@ -1,0 +1,4 @@
+credential-url,size,offset,id,statusCode,scenario
+<string>,20,0,15cf2b5f-a8eb-9596-1af2-eb523fed9b44,200,successful operation
+<string>,30,1,urn:uuid:22562eb3-40f0-22ab-0112-acfaf1299b68,400,Bad Request
+<string>,50,2,urn:uuid:22562eb3-40f0-22ab-0112-acfaf1299b68,401,Authentication Required

@@ -1,0 +1,4 @@
+id,initials,firstName,middleName,lastName,birthDate,birthPlace,phone,email,postalCode,houseNumber,houseNumberPostfix,countryCode,reference,statusCode,scenario
+urn:uuid:453077c7-08db-466f-7ee5-1b4c68beafc6,AB,John,Michael,Smith,1989-11-05,New York,1234567890,johnsmith@gmail.com,12345,123,A,US,ref123,200,successful operation
+urn:uuid:453077c7-08db-466f-7ee6-1b4c68beafc7,CD,Invalid,Invalid,Invalid,1989-13-35,Invalid,invalid,invalid@gmail.com,123456,invalid,B,XY,invalid,400,Bad Request
+urn:uuid:453077c7-08db-466f-7ee7-1b4c68beafc8,EF,Invalid,Invalid,Invalid,1989-14-35,Invalid,invalid,invalid@gmail.com,1234567,invalid,C,ZY,invalid,401,Authentication Required

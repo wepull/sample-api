@@ -1,0 +1,4 @@
+id,statusCode,scenario
+4b4b1c77-71a0-447a-8a1b-3e6522c057e3,200,successful operation
+f2d4fc92-9f0f-4b6c-9f6c-68fcb3f53c6d,400,Bad Request
+9b9b7d77-919a-467b-9a9b-3e9192c057e3,401,Authentication Required
