@@ -1,0 +1,5 @@
+coc-number,coc-branch-number,trade-name,size,offset,statusCode,scenario
+40506877,090388497695,veniam moll,20,0,200,successful operation
+65415161,974542793148,commodo in nisi sed,20,0,200,successful operation
+87456123,456123789456,random trade name,30,5,400,Bad Request
+12345678,123456789012,another random trade name,25,10,401,Authentication Required

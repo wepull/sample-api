@@ -1,0 +1,5 @@
+credential-url,size,offset,id,statusCode,scenario
+S:/h:AH#D,20,0,3c5b7749-3e3e-f704-b0c7-bcba7b77df4b,200,successful operation
+ILq5T0E:/_[\"F*Or_J@,20,0,f518feb4-d579-6d1d-98a9-c46f32cb0ab9,200,successful operation
+gibberish-url,52,0,invalid-uuid,400,Bad Request
+random-url,0,-1,wrong-uuid,401,Authentication Required
