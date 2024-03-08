@@ -1,0 +1,6 @@
+id,reference,revoked,suspendedUntil,endDate,statusCode,scenario
+9e96338e-5763-08e9-ef4f-3948cb37fd63,refString1,false,2021-12-31,2022-12-31,200,successful operation
+b3d9f4b6-89f2-4e2a-a0b1-9b2384e63f9e,refString2,true,2022-01-01,2022-12-31,400,Bad Request
+c4d7f5b7-98e3-5f3b-b1a2-a8c34974f8a3,refString3,false,2022-01-31,2023-01-31,401,Authentication Required
+d5e8f6c8-a9f4-6g4c-c2b3-b9d45085g9b4,refString4,true,2022-02-28,2023-02-28,500,Server Error
+e6f9g7d9-bag5-7h5d-d3c4-c0e56196h0c5,refString5,false,2022-03-31,2023-03-31,404,Not Found

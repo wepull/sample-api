@@ -1,0 +1,4 @@
+birthDate,initials,lastName,firstName,middleName,birthPlace,phone,email,postalCode,houseNumber,houseNumberPostfix,countryCode,reference,statusCode,scenario
+1988-02-23,AZ,Smith,John,Doe,New York,1234567890,johnsmith@gmail.com,12345,6789,A,US,1234567890,201,successful operation
+1990-03-12,BC,Johnson,James,David,Los Angeles,0987654321,jamesjohnson@yahoo.com,67890,1234,B,UK,0987654321,400,Bad Request
+1992-04-01,DE,Williams,Robert,Michael,Chicago,5678901234,robertwilliams@hotmail.com,56789,2345,C,CA,5678901234,401,Authentication Required

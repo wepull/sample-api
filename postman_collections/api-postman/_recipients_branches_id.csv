@@ -1,0 +1,4 @@
+id,tradeName,phone,email,statusCode,scenario
+dd0f510f-0078-b918-e366-fc834a691662,tradeName1,1234567890,email1@example.com,200,successful operation
+3d9f510f-0078-b918-e366-fc834a691662,tradeName2,0987654321,email2@example.com,400,Bad Request
+4c9f510f-0078-b918-e366-fc834a691662,tradeName3,1122334455,email3@example.com,401,Authentication Required

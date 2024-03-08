@@ -1,0 +1,7 @@
+size,offset,recipient-id,credential-url,statusCode,scenario
+20,0,7cda3f87-171e-342f-09ed-b0237e70330f,<string>,200,successful operation
+35,5,urn:uuid:f4af3a4a-d4fd-1533-fc3a-475c83775ca3,<string>,200,successful operation
+40,10,9a052664-7bb5-c4ee-b787-50a916727437,<string>,400,Bad Request
+45,15,444f5477-2f25-a0a6-6ffd-a41f60d005e3,<string>,400,Bad Request
+50,20,7cda3f87-171e-342f-09ed-b0237e70330f,<string>,401,Authentication Required
+25,25,urn:uuid:f4af3a4a-d4fd-1533-fc3a-475c83775ca3,<string>,401,Authentication Required
