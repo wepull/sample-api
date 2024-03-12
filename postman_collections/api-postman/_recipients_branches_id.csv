@@ -1,0 +1,4 @@
+id,tradeName,phone,email,statusCode,scenario
+urn:uuid:e0f74bec-ab12-006a-f391-b97a63b4d415,TradeName1,1234567890,example1@email.com,200,successful operation
+urn:uuid:1234abcd-5678-efgh-9123-ijklmnop4567,TradeName2,0987654321,example2@email.com,400,Bad Request
+urn:uuid:4567mnop-8912-klmn-3456-efghabcd1234,TradeName3,5678901234,example3@email.com,401,Authentication Required

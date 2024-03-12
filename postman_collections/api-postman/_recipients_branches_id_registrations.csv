@@ -1,0 +1,4 @@
+credential-url,size,offset,id,statusCode,scenario
+mtxSSpCQqUK:V@,20,0,urn:uuid:1f964257-9808-6709-d122-866fcdd2dfe4,200,successful operation
+7Q:/6@Tg~,15,5,01d29dab-eba0-c8ac-401c-04576e0b990d,400,Bad Request
+error/code,30,10,urn:uuid:1f964257-9808-6709-d122-866fcdd2dfe4,401,Authentication Required

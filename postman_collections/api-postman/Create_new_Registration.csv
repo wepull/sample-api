@@ -1,0 +1,4 @@
+id,credentialUrl,startDate,reference,endDate,statusCode,scenario
+urn:uuid:40958ec8-6532-934e-7a14-463e85de18a9,http://example.com,2022-01-01,ref123,2022-12-31,201,Successful
+urn:uuid:12345abcde-6532-934e-7a14-463e85de18a9,http://invalid.com,2023-01-01,ref456,2023-12-31,400,Bad Request
+urn:uuid:67890fghij-6532-934e-7a14-463e85de18a9,http://authenticate.com,2024-01-01,ref789,2024-12-31,401,Authentication Required

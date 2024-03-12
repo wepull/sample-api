@@ -1,0 +1,11 @@
+kvkNummer,vestigingsnummer,handelsnaam,statusCode,scenario
+12345678,98765432,XYZ Trading,200,successful operation
+22345678,88765432,ABC Enterprises,200,successful operation
+32345678,78765432,DEF Industries,200,successful operation
+42345678,68765432,GHI Manufacturing,200,successful operation
+52345678,58765432,JKL Wholesale,200,successful operation
+62345678,48765432,MNO Retail,200,successful operation
+72345678,38765432,PQR Services,200,successful operation
+82345678,28765432,STU Logistics,200,successful operation
+92345678,18765432,VWX Construction,200,successful operation
+02345678,08765432,YZQ Technology,200,successful operation

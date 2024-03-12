@@ -1,0 +1,4 @@
+birthDate,initials,lastName,firstName,middleName,birthPlace,phone,email,postalCode,houseNumber,houseNumberPostfix,countryCode,reference,statusCode,scenario
+1992-12-12,AB,Smith,John,Allen,London,1234567890,johnsmith@gmail.com,12345,12,A,UK,1234,201,successful operation
+2001-01-01,CD,Johnson,Jane,Doe,New York,0987654321,janejohnson@gmail.com,67890,34,B,US,5678,400,Bad Request
+1985-05-05,EF,Williams,Emily,Grace,Paris,1122334455,emilywilliams@gmail.com,34567,56,C,FR,9101,401,Authentication Required
