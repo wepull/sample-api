@@ -1,0 +1,5 @@
+coc-number,coc-branch-number,trade-name,size,offset,statusCode,scenario
+83978925,094446383852,est,20,0,200,successful operation
+59656063,319748930999,commodo sit dolore,20,0,200,successful operation
+12345678,123456789012,random trade name,50,10,400,Bad Request
+87654321,210987654321,another random trade name,1,5,401,Authentication Required

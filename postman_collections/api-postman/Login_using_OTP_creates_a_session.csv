@@ -1,0 +1,9 @@
+client,email,otp,statusCode,scenario
+mobile,johndoe@example.com,123456,201,successful operation
+web,janedoe@example.com,123456,201,successful operation
+desktop,robert@example.com,123456,201,successful operation
+api,emily@example.com,123456,201,successful operation
+mobile,random1@example.com,654321,400,Bad Request
+web,random2@example.com,654321,400,Bad Request
+desktop,random3@example.com,654321,400,Bad Request
+api,random4@example.com,654321,400,Bad Request

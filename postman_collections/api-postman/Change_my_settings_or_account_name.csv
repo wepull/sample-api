@@ -1,0 +1,4 @@
+name,image,statusCode,scenario
+L'}.. -L..}-L.'p'{}{'L.-.p'{-{  .-} L- .}-p} Lp-{} .-{}pL } - .--.{ .}}{-L-pp- ' -}L{'-p {{L{-}L.},https://cdn.credentialregiater.com/2571c54e-2cde-4434-83f2-c329f74adc27.png,200,successful operation
+randomName1,https://randomimage1.com,400,Bad Request
+randomName2,https://randomimage2.com,401,Authentication Required
