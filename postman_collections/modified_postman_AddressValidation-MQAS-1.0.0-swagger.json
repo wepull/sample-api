@@ -1,7 +1,7 @@
 {
   "item": [
     {
-      "id": "7b5d6a6c-9c52-4a29-adfe-63f4c9db712c",
+      "id": "11f76b85-1dda-479c-97c3-88b778f41856",
       "name": "Server example operation",
       "request": {
         "name": "Server example operation",
@@ -24,7 +24,7 @@
       },
       "response": [
         {
-          "id": "e67e841e-1e0f-4ee9-bd57-0a39f9e8cd92",
+          "id": "17302d37-f9bb-4e68-9560-6871afd00ee8",
           "name": "OK",
           "originalRequest": {
             "url": {
@@ -79,7 +79,7 @@
       }
     },
     {
-      "id": "83257a19-36ec-4bf7-8948-57f75971c9be",
+      "id": "4d5b3b09-2307-46b9-9ba8-b7f840b95812",
       "name": "Server heartbeat operation",
       "request": {
         "name": "Server heartbeat operation",
@@ -102,7 +102,7 @@
       },
       "response": [
         {
-          "id": "4bc2b4bc-e7cf-4e8e-a120-a5f35be7f832",
+          "id": "80300bf2-05e2-485a-a533-ed8273abc9ff",
           "name": "OK",
           "originalRequest": {
             "url": {
@@ -188,7 +188,7 @@
     ]
   },
   "info": {
-    "_postman_id": "31c66616-804a-4c72-aa62-b250585e2fc4",
+    "_postman_id": "3b7d6fe2-feeb-4e00-8acb-d28261b32cbe",
     "name": "Sample Application Flow OAuth2 Project",
     "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
     "description": {
