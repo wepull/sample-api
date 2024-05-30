@@ -1,0 +1,11 @@
+name^|^image^|^settings
+John Doe^|^data:image/jpeg;base64,9j/4AAQSkZJRgABAQEAAAAAAAD/4QA6RX^|^{"theme":"dark","notifications":"on"}
+Jane Smith^|^data:image/jpeg;base64,9j/4AAQSkZJRgABAQEAAAAAAAD/4QBKRX^|^{"theme":"light","notifications":"off"}
+Alice Johnson^|^data:image/jpeg;base64,9j/4AAQSkZJRgABAQEAAAAAAAD/4QBARX^|^{"theme":"light","notifications":"on"}
+Robert Brown^|^data:image/jpeg;base64,9j/4AAQSkZJRgABAQEAAAAAAAD/4QBBRX^|^{"theme":"dark","notifications":"off"}
+Emma Davis^|^data:image/jpeg;base64,9j/4AAQSkZJRgABAQEAAAAAAAD/4QBCRX^|^{"theme":"light","notifications":"on"}
+Michael Miller^|^data:image/jpeg;base64,9j/4AAQSkZJRgABAQEAAAAAAAD/4QBD^|^{"theme":"dark","notifications":"off"}
+Emily Wilson^|^data:image/jpeg;base64,9j/4AAQSkZJRgABAQEAAAAAAAD/4QBERX^|^{"theme":"light","notifications":"on"}
+Jacob Moore^|^data:image/jpeg;base64,9j/4AAQSkZJRgABAQEAAAAAAAD/4QBFRX^|^{"theme":"dark","notifications":"off"}
+Olivia Taylor^|^data:image/jpeg;base64,9j/4AAQSkZJRgABAQEAAAAAAAD/4QBGRX^|^{"theme":"light","notifications":"on"}
+William Anderson^|^data:image/jpeg;base64,9j/4AAQSkZJRgABAQEAAAAAAAD/4QBHRX^|^{"theme":"dark","notifications":"off"}

@@ -1,0 +1,11 @@
+email^|^otp^|^client
+john.doe@gmail.com^|^123456^|^ClientA
+jane.doe@yahoo.com^|^654321^|^ClientB
+invalid.email^|^987654^|^ClientC
+bob.smith@outlook.com^|^^|^ClientD
+empty@empty.com^|^111111^|^
+alice.johnson@hotmail.com^|^222222^|^ClientE
+null^|^333333^|^ClientF
+carl.jenkins@gmail.com^|^444444^|^ClientG
+^|^555555^|^ClientH
+mark.thompson@company.com^|^666666^|^ClientI
