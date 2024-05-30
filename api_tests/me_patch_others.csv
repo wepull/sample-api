@@ -1,0 +1,11 @@
+name^|^image^|^settings
+John Doe^|^data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAAAAAAAD/4gIoSUNDX1BST0ZJTEUAAQEAAAIyAAIBAAEBAQEBAQAA^|^{"theme":"dark","notifications":true}
+Jane Smith^|^data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAAAAAAAD/4gIoSUNDX1BST0ZJTEUAAQEAAAIyAAIBAAEBAQEBAQAA^|^{"theme":"light","notifications":false}
+Bob Johnson^|^data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAIAAAACDbGyAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAA^|^{"theme":"dark","notifications":true}
+Alice Davis^|^data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAAAAAAAD/4gIoSUNDX1BST0ZJTEUAAQEAAAIyAAIBAAEBAQEBAQAA^|^{"theme":"light","notifications":true}
+Charlie Miller^|^data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAIAAAACDbGyAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAA^|^{"theme":"dark","notifications":false}
+Eve Thompson^|^data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAAAAAAAD/4gIoSUNDX1BST0ZJTEUAAQEAAAIyAAIBAAEBAQEBAQAA^|^{"theme":"light","notifications":true}
+Frank Williams^|^data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAIAAAACDbGyAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAA^|^{"theme":"dark","notifications":true}
+Grace Jones^|^data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAAAAAAAD/4gIoSUNDX1BST0ZJTEUAAQEAAAIyAAIBAAEBAQEBAQAA^|^{"theme":"light","notifications":false}
+Harry Brown^|^data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAIAAAACDbGyAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAA^|^{"theme":"dark","notifications":true}
+Irene Taylor^|^data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAAAAAAAD/4gIoSUNDX1BST0ZJTEUAAQEAAAIyAAIBAAEBAQEBAQAA^|^{"theme":"light","notifications":true}

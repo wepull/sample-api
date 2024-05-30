@@ -1,0 +1,11 @@
+id^|^did^|^name^|^image^|^email^|^settings^|^createdAt^|^updatedAt
+987fbc97-4bed-5078-9f07-9141ba07c9f3^|^DID123^|^John Doe^|^https://example.com/image1.png^|^john@example.com^|^{"language": "en", "notifications": true}^|^2022-03-01T12:00:00Z^|^2022-03-02T12:00:00Z
+bc614e01-b233-5e88-a7dc-5cbad375c904^|^DID124^|^Jane Doe^|^https://example.com/image2.png^|^jane@example.com^|^{"language": "fr", "notifications": false}^|^2022-03-02T12:00:00Z^|^2022-03-03T12:00:00Z
+a2fd8b82-9d2f-5f6d-b75b-3cc8a9e4e6d6^|^DID125^|^Bob Smith^|^https://example.com/image3.png^|^bob@example.com^|^{"language": "es", "notifications": true}^|^2022-03-03T12:00:00Z^|^2022-03-04T12:00:00Z
+9a8b7c6d-5e4f-3d2c-1b0a-9f8e7d6c5b4a^|^DID126^|^Alice Johnson^|^https://example.com/image4.png^|^alice@example.com^|^{"language": "de", "notifications": false}^|^2022-03-04T12:00:00Z^|^2022-03-05T12:00:00Z
+8765e4d3-c2b1-a09f-8765-4e3d2c1b0a9f^|^DID127^|^Charlie Brown^|^https://example.com/image5.png^|^charlie@example.com^|^{"language": "it", "notifications": true}^|^2022-03-05T12:00:00Z^|^2022-03-06T12:00:00Z
+7654d3c2-b1a0-9f87-6543-d2c1b0a9f8e7^|^DID128^|^David Williams^|^https://example.com/image6.png^|^david@example.com^|^{"language": "pt", "notifications": false}^|^2022-03-06T12:00:00Z^|^2022-03-07T12:00:00Z
+6543d2c1-b0a9-f876-5432-c1b0a9f8e7d6^|^DID129^|^Emma Davis^|^https://example.com/image7.png^|^emma@example.com^|^{"language": "ru", "notifications": true}^|^2022-03-07T12:00:00Z^|^2022-03-08T12:00:00Z
+5432c1b0-a9f8-7654-32c1-b0a9f8e7d6c5^|^DID130^|^Frank Thompson^|^https://example.com/image8.png^|^frank@example.com^|^{"language": "zh", "notifications": false}^|^2022-03-08T12:00:00Z^|^2022-03-09T12:00:00Z
+4321b0a9-f876-5432-1b0a-9f8e7d6c5b4a^|^DID131^|^Grace White^|^https://example.com/image9.png^|^grace@example.com^|^{"language": "ja", "notifications": true}^|^2022-03-09T12:00:00Z^|^2022-03-10T12:00:00Z
+321b0a9f-8765-4321-0a9f-8e7d6c5b4a3d^|^DID132^|^Harry Wilson^|^https://example.com/image10.png^|^harry@example.com^|^{"language": "ar", "notifications": false}^|^2022-03-10T12:00:00Z^|^2022-03-11T12:00:00Z
